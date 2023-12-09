@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    background-color: #313030;
+    color: #fff;
+}
+h2{
+    margin: 4rem;
+}
+.item{
+    margin: 20px;
+}
+#btn{
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #a3a0a0;
+}
